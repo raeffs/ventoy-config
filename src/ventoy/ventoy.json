@@ -1,0 +1,95 @@
+{
+  "control": [
+    { "VTOY_DEFAULT_SEARCH_ROOT": "/boot-images" },
+    { "VTOY_DEFAULT_MENU_MODE": "1" }
+  ],
+
+  "theme": {
+      "file": "/ventoy/theme/theme.txt",
+      "display_mode": "GUI",
+      "gfxmode": "1920x1080",
+      "ventoy_left": "100%",
+      "ventoy_top": "100%",
+      "fonts": [
+          "/ventoy/theme/fonts/fantasque-sans-mono.pf2"
+      ]
+  },
+
+  "menu_class": [
+    {
+      "dir": "/boot-images/fedora-workstation",
+      "class": "fedora-workstation"
+    },
+    {
+      "parent": "/boot-images/fedora-workstation",
+      "class": "fedora-workstation"
+    },
+    {
+      "dir": "/boot-images/true-nas",
+      "class": "true-nas"
+    },
+    {
+      "parent": "/boot-images/true-nas",
+      "class": "true-nas"
+    },
+    {
+      "dir": "/boot-images/ubuntu-desktop",
+      "class": "ubuntu-desktop"
+    },
+    {
+      "parent": "/boot-images/ubuntu-desktop",
+      "class": "ubuntu-desktop"
+    },
+    {
+      "dir": "/boot-images/ubuntu-server",
+      "class": "ubuntu-server"
+    },
+    {
+      "parent": "/boot-images/ubuntu-server",
+      "class": "ubuntu-server"
+    },
+    {
+      "dir": "/boot-images/windows-10",
+      "class": "windows-10"
+    },
+    {
+      "parent": "/boot-images/windows-10",
+      "class": "windows-10"
+    },
+    {
+      "dir": "/boot-images/windows-server",
+      "class": "windows-server"
+    },
+    {
+      "parent": "/boot-images/windows-server",
+      "class": "windows-server"
+    }
+  ],
+
+  "menu_alias": [
+    {
+      "dir": "/boot-images/fedora-workstation",
+      "alias": "Fedora Workstation"
+    },
+    {
+      "dir": "/boot-images/true-nas",
+      "alias": "True NAS"
+    },
+    {
+      "dir": "/boot-images/ubuntu-desktop",
+      "alias": "Ubuntu Desktop"
+    },
+    {
+      "dir": "/boot-images/ubuntu-server",
+      "alias": "Ubuntu Server"
+    },
+    {
+      "dir": "/boot-images/windows-10",
+      "alias": "Windows 10"
+    },
+    {
+      "dir": "/boot-images/windows-server",
+      "alias": "Windows Server"
+    }
+  ]
+}

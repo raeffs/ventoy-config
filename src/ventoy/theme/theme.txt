@@ -1,0 +1,174 @@
+
+desktop-image: "background.png"
+title-text: ""
+message-color: "#f2f2f2"
+
++ boot_menu {
+  left = 20%-16
+  width = 60%+32
+  top = 10%
+  height = 60%
+  item_font = "Fantasque Sans Mono Regular 16"
+  item_color = "#ffffff"
+  item_height = 32
+  item_spacing = 5
+  item_padding = 7
+  selected_item_color= "#000000"
+  item_icon_space = 20
+}
+
++ progress_bar {
+  id = "__timeout__"
+  text = "@TIMEOUT_NOTIFICATION_SHORT@"
+  left = 95%
+  width = 48
+  top = 95%
+  height = 48
+  text_color = "#f2f2f2"
+  bar_style = "*"
+  highlight_style = "*"
+}
+
++ hbox {
+  left = 25%-16
+  top = 80%
+  width = 32
+  + vbox {
+    + image {
+      width = 32
+      height = 32
+      file = "icons/mem.png"
+    }
+    + canvas {
+      width = 32
+      height = 16
+    }
+    + label {
+      width = 32
+      height = 32
+      text = "F1"
+      color = "white"
+      align = "center"
+    }
+  }
+}
+
++ hbox {
+  left = 35%-16
+  top = 80%
+  width = 32
+  + vbox {
+    + image {
+      width = 32
+      height = 32
+      file = "icons/power_halt.png"
+    }
+    + canvas {
+      width = 32
+      height = 16
+    }
+    + label {
+      width = 32
+      height = 32
+      text = "F2"
+      color = "white"
+      align = "center"
+    }
+  }
+}
+
++ hbox {
+  left = 45%-16
+  top = 80%
+  width = 32
+  + vbox {
+    + image {
+      width = 32
+      height = 32
+      file = "icons/list.png"
+    }
+    + canvas {
+      width = 32
+      height = 16
+    }
+    + label {
+      width = 32
+      height = 32
+      text = "F3"
+      color = "white"
+      align = "center"
+    }
+  }
+}
+
++ hbox {
+  left = 55%-16
+  top = 80%
+  width = 32
+  + vbox {
+    + image {
+      width = 32
+      height = 32
+      file = "icons/boot_disk.png"
+    }
+    + canvas {
+      width = 32
+      height = 16
+    }
+    + label {
+      width = 32
+      height = 32
+      text = "F4"
+      color = "white"
+      align = "center"
+    }
+  }
+}
+
++ hbox {
+  left = 65%-16
+  top = 80%
+  width = 32
+  + vbox {
+    + image {
+      width = 32
+      height = 32
+      file = "icons/ventoy.png"
+    }
+    + canvas {
+      width = 32
+      height = 16
+    }
+    + label {
+      width = 32
+      height = 32
+      text = "F5"
+      color = "white"
+      align = "center"
+    }
+  }
+}
+
++ hbox {
+  left = 75%-16
+  top = 80%
+  width = 32
+  + vbox {
+    + image {
+      width = 32
+      height = 32
+      file = "icons/mode_text.png"
+    }
+    + canvas {
+      width = 32
+      height = 16
+    }
+    + label {
+      width = 32
+      height = 32
+      text = "F7"
+      color = "white"
+      align = "center"
+    }
+  }
+}
