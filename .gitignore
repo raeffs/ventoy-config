@@ -1,0 +1,5 @@
+boot-images/*
+!boot-images/.gitkeep
+
+ventoy/*
+!ventoy/.gitkeep
