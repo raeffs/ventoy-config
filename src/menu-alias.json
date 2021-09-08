@@ -1,5 +1,9 @@
 [
   {
+    "pattern": "^fedora-server-dvd-(?<architecture>\\S{6})-(?<version>\\w{2})-\\S*\\.iso$",
+    "alias": "Fedora Server ${version}"
+  },
+  {
     "pattern": "^fedora-workstation-live-(?<architecture>\\S{6})-(?<version>\\w{2})-\\S*\\.iso$",
     "alias": "Fedora Workstation ${version}"
   },

@@ -17,6 +17,14 @@
 
   "menu_class": [
     {
+      "dir": "/boot-images/fedora-server",
+      "class": "fedora-server"
+    },
+    {
+      "parent": "/boot-images/fedora-server",
+      "class": "fedora-server"
+    },
+    {
       "dir": "/boot-images/fedora-workstation",
       "class": "fedora-workstation"
     },
@@ -67,6 +75,10 @@
   ],
 
   "menu_alias": [
+    {
+      "dir": "/boot-images/fedora-server",
+      "alias": "Fedora Server"
+    },
     {
       "dir": "/boot-images/fedora-workstation",
       "alias": "Fedora Workstation"
