@@ -1,11 +1,31 @@
 [
   {
+    "pattern": "^archlinux-(?<version>\\S{10})-(?<architecture>\\S{6}).iso$",
+    "alias": "Arch Linux ${version}"
+  },
+  {
+    "pattern": "^centos-(?<version>\\S{8})-(?<architecture>\\S{6})-boot.iso$",
+    "alias": "CentOS ${version}"
+  },
+  {
+    "pattern": "^debian-(?<version>\\S{6})-(?<architecture>\\w{5})-netinst.iso$",
+    "alias": "Debian ${version}"
+  },
+  {
     "pattern": "^fedora-server-dvd-(?<architecture>\\S{6})-(?<version>\\w{2})-\\S*\\.iso$",
     "alias": "Fedora Server ${version}"
   },
   {
     "pattern": "^fedora-workstation-live-(?<architecture>\\S{6})-(?<version>\\w{2})-\\S*\\.iso$",
     "alias": "Fedora Workstation ${version}"
+  },
+  {
+    "pattern": "^linuxmint-(?<version>\\S{4})-(?<desktop>\\w*)-(?<architecture>\\w{5}).iso$",
+    "alias": "LinuxMint ${version} (${desktop})"
+  },
+  {
+    "pattern": "^manjaro-(?<desktop>\\w*)-(?<version>\\S{6})-minimal-\\S*.iso$",
+    "alias": "Manjaro ${version} (${desktop})"
   },
   {
     "pattern": "^truenas-(?<version>\\S*)\\.iso$",

@@ -1,21 +1,40 @@
 {
-  "control": [
-    { "VTOY_DEFAULT_SEARCH_ROOT": "/boot-images" },
-    { "VTOY_DEFAULT_MENU_MODE": "1" }
-  ],
+  "control": [{ "VTOY_DEFAULT_SEARCH_ROOT": "/boot-images" }, { "VTOY_DEFAULT_MENU_MODE": "1" }],
 
   "theme": {
-      "file": "/ventoy/theme/theme.txt",
-      "display_mode": "GUI",
-      "gfxmode": "1920x1080",
-      "ventoy_left": "100%",
-      "ventoy_top": "100%",
-      "fonts": [
-          "/ventoy/theme/fonts/fantasque-sans-mono.pf2"
-      ]
+    "file": "/ventoy/theme/theme.txt",
+    "display_mode": "GUI",
+    "gfxmode": "1920x1080",
+    "ventoy_left": "100%",
+    "ventoy_top": "100%",
+    "fonts": ["/ventoy/theme/fonts/fantasque-sans-mono.pf2"]
   },
 
   "menu_class": [
+    {
+      "dir": "/boot-images/arch-linux",
+      "class": "arch-linux"
+    },
+    {
+      "parent": "/boot-images/arch-linux",
+      "class": "arch-linux"
+    },
+    {
+      "dir": "/boot-images/centos",
+      "class": "centos"
+    },
+    {
+      "parent": "/boot-images/centos",
+      "class": "centos"
+    },
+    {
+      "dir": "/boot-images/debian",
+      "class": "debian"
+    },
+    {
+      "parent": "/boot-images/debian",
+      "class": "debian"
+    },
     {
       "dir": "/boot-images/fedora-server",
       "class": "fedora-server"
@@ -31,6 +50,22 @@
     {
       "parent": "/boot-images/fedora-workstation",
       "class": "fedora-workstation"
+    },
+    {
+      "dir": "/boot-images/linuxmint",
+      "class": "linuxmint"
+    },
+    {
+      "parent": "/boot-images/linuxmint",
+      "class": "linuxmint"
+    },
+    {
+      "dir": "/boot-images/manjaro",
+      "class": "manjaro"
+    },
+    {
+      "parent": "/boot-images/manjaro",
+      "class": "manjaro"
     },
     {
       "dir": "/boot-images/true-nas",
@@ -76,12 +111,32 @@
 
   "menu_alias": [
     {
+      "dir": "/boot-images/arch-linux",
+      "alias": "Arch Linux"
+    },
+    {
+      "dir": "/boot-images/centos",
+      "alias": "CentOS"
+    },
+    {
+      "dir": "/boot-images/debian",
+      "alias": "Debian"
+    },
+    {
       "dir": "/boot-images/fedora-server",
       "alias": "Fedora Server"
     },
     {
       "dir": "/boot-images/fedora-workstation",
       "alias": "Fedora Workstation"
+    },
+    {
+      "dir": "/boot-images/linuxmint",
+      "alias": "LinuxMint"
+    },
+    {
+      "dir": "/boot-images/manjaro",
+      "alias": "Manjaro"
     },
     {
       "dir": "/boot-images/true-nas",
