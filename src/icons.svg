@@ -10,11 +10,11 @@
    version="1.1"
    viewBox="0 0 500.00001 500.00002"
    id="svg6"
-   sodipodi:docname="Fedora_icon_(2021).svg"
+   sodipodi:docname="icons.svg"
    width="500"
    height="500"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   inkscape:export-filename="C:\Users\raphael\Downloads\fedora-server.png"
+   inkscape:export-filename="D:\code\github\raeffs\ventoy-config\src\ventoy\theme\icons\true-nas.png"
    inkscape:export-xdpi="6.1563125"
    inkscape:export-ydpi="6.1563125">
   <metadata
@@ -45,15 +45,16 @@
      id="namedview8"
      showgrid="false"
      inkscape:pagecheckerboard="true"
-     inkscape:zoom="1.2934881"
-     inkscape:cx="74.53581"
-     inkscape:cy="229.03118"
+     inkscape:zoom="0.91463421"
+     inkscape:cx="311.86279"
+     inkscape:cy="289.40197"
      inkscape:window-x="1789"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="g2089"
      showguides="true"
-     inkscape:guide-bbox="true" />
+     inkscape:guide-bbox="true"
+     inkscape:document-rotation="0" />
   <title
      id="title2">Fedora logo (2021)</title>
   <g
@@ -76,7 +77,8 @@
      inkscape:groupmode="layer"
      id="g878"
      inkscape:label="fedora-server"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     style="display:none">
     <ellipse
        style="fill:#e1923d;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse876"
@@ -89,13 +91,134 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="g861"
+     inkscape:label="ubuntu-server"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <ellipse
+       style="fill:#762852;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse859"
+       cx="250"
+       cy="250"
+       rx="250"
+       ry="250.00008"
+       inkscape:export-xdpi="6.1563125"
+       inkscape:export-ydpi="6.1563125" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g880"
+     inkscape:label="ubuntu-desktop"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <ellipse
+       style="fill:#de4815;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse878"
+       cx="250"
+       cy="250"
+       rx="250"
+       ry="250.00008"
+       inkscape:export-xdpi="6.1563125"
+       inkscape:export-ydpi="6.1563125" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g862"
+     inkscape:label="windows-10"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <ellipse
+       style="fill:#0078d6;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse860"
+       cx="250"
+       cy="250"
+       rx="250"
+       ry="250.00008"
+       inkscape:export-xdpi="6.1563125"
+       inkscape:export-ydpi="6.1563125" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g1456"
+     inkscape:label="windows-server"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <ellipse
+       style="fill:#001589;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse1454"
+       cx="250"
+       cy="250"
+       rx="250"
+       ry="250.00008"
+       inkscape:export-xdpi="6.1563125"
+       inkscape:export-ydpi="6.1563125" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g2089"
+     inkscape:label="true-nas"
+     sodipodi:insensitive="true"
+     style="display:inline;">
+    <ellipse
+       style="fill:#1c92d0;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse2087"
+       cx="250"
+       cy="250"
+       rx="250"
+       ry="250.00008"
+       inkscape:export-xdpi="6.1563125"
+       inkscape:export-ydpi="6.1563125" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="fedora"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     style="display:none">
     <path
        d="m 319.18412,91.837359 c 41.3498,0 80.39283,31.165721 80.39283,74.184231 0,3.98774 0.0245,7.98039 -0.63802,12.50309 -1.14553,11.44052 -11.76446,19.6614 -23.32522,18.04913 -11.56077,-1.63165 -19.40864,-12.44175 -17.26877,-23.75221 0.19612,-1.29079 0.26579,-3.31779 0.26579,-6.80246 0,-24.38778 -20.26263,-33.7915 -39.41115,-33.7915 -19.15343,0 -36.41727,15.8577 -36.4418,33.7915 0.33105,20.74852 0,41.32527 0,62.06151 l 35.55836,-0.26185 c 27.75467,-0.56589 28.07369,40.58905 0.32025,40.39274 l -35.85284,0.26184 c -0.0869,16.6896 0.13047,13.6712 0.0438,22.07614 0,0 0.30062,20.4123 -0.31803,35.87738 -4.29203,45.44796 -43.58294,81.76707 -90.79776,81.76707 -50.06148,0 -91.28857,-40.27005 -91.28857,-89.66893 1.50282,-50.79768 42.65041,-90.77322 94.47876,-90.30697 l 28.90803,-0.2144 v 40.31911 l -28.90803,0.26161 h -0.15255 c -28.46633,0.82993 -52.88358,19.87733 -53.34984,49.91421 0,27.36204 22.44914,49.2762 50.30687,49.2762 27.8283,0 50.11055,-19.93625 50.11055,-49.22711 l -0.0435,-152.71204 c 0.0144,-2.83436 0.10879,-5.08712 0.42477,-8.21351 4.69695,-37.34977 38.62586,-65.816118 77.03087,-65.816118 z"
        style="fill:#ffffff;fill-opacity:1;stroke-width:2.40982"
        id="path4"
        sodipodi:nodetypes="cscccsscccccccscccccccsccccc" />
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="ubuntu"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <g
+       id="g854"
+       transform="matrix(1.7638928,0,0,1.7638928,412.27686,64.54068)">
+      <path
+         fill="#ffffff"
+         d="m -165.55525,105.13856 c 0,10.064 -8.159,18.225 -18.23,18.225 -10.059,0 -18.218,-8.16 -18.218,-18.225 0,-10.060002 8.159,-18.219003 18.218,-18.219003 10.071,0 18.23,8.159001 18.23,18.219003 z m 103.673995,88.60599 c 5.033,8.70901 16.173,11.69601 24.889,6.67001 8.715,-5.03301 11.701,-16.17901 6.669,-24.895 -5.032,-8.715 -16.173,-11.695 -24.888,-6.663 -8.716,5.033 -11.702,16.17299 -6.67,24.88799 z m 31.557,-158.981993 c 5.032,-8.717 2.052,-19.86 -6.669,-24.8869998 -8.71,-5.032 -19.855,-2.046 -24.889,6.6669998 -5.032,8.715 -2.046,19.857 6.67,24.889 8.716,5.032 19.862,2.046 24.888,-6.669 z m -61.672,18.413 c 27.153,0 49.434,20.814 51.761,47.364003 l 26.372,-0.416 c -1.252,-19.727003 -9.809,-37.469003 -22.995,-50.551003 -6.98,2.693 -15.079,2.327 -22.066,-1.71 -6.992,-4.037 -11.359,-10.871 -12.514,-18.275 -6.554,-1.78 -13.448,-2.733 -20.558,-2.733 -12.470995,0 -24.258995,2.916 -34.726995,8.103 l 12.832,23.043 c 6.65,-3.09 14.076995,-4.825 21.894995,-4.825 z m -51.968995,51.963003 c 0,-17.577003 8.734,-33.121003 22.097,-42.520003 l -13.54,-22.634 c -15.684,10.474 -27.367,26.451 -32.296,45.183 5.833,4.697001 9.57,11.897001 9.57,19.972003 0,8.08 -3.738,15.28 -9.57,19.978 4.929,18.731 16.612,34.708 32.296,45.188 l 13.54,-22.634 c -13.363,-9.406 -22.097,-24.944 -22.097,-42.533 z m 51.968995,51.973 c -7.817,0 -15.243995,-1.734 -21.894995,-4.83 l -12.832,23.043 c 10.468,5.19099 22.255,8.10399 34.726995,8.10399 7.109,0 14.004,-0.946 20.558,-2.729 1.154,-7.40899 5.521,-14.24299 12.514,-18.27299 6.987,-4.037 15.086,-4.404 22.066,-1.711 13.187,-13.088 21.743,-30.83 22.995,-50.557 l -26.372,-0.409 c -2.328,26.543 -24.608,47.362 -51.761,47.362 z"
+         id="path4-4" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="windows"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <path
+       d="m 114.09593,152.27905 111.0798,-15.12785 0.0485,107.14355 -111.02495,0.63226 z m 111.02686,104.36188 0.0862,107.23869 -111.02537,-15.26439 -0.006,-92.69176 z m 13.46525,-121.46825 147.28159,-21.49531 v 129.2561 l -147.28159,1.16923 z m 147.31603,122.47616 -0.0346,128.67379 -147.28159,-20.78699 -0.20637,-108.12659 z"
+       id="path13"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:3.11258" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="true-nas"
+     sodipodi:insensitive="true">
+    <path
+       d="m 410.14664,223.96282 v 68.24917 l -146.12048,84.39728 v -68.24916 z m -320.293277,0 v 68.24917 l 146.213907,84.39728 v -68.24916 z m 160.200007,-8.07405 -59.16081,34.15127 59.16081,34.15127 59.10751,-34.15127 z M 396.21391,199.78068 264.02616,123.40407 v 68.30256 l 73.04025,42.22532 z m -160.14664,-8.07405 v -68.3159 l -132.28118,76.37661 59.1475,34.09789 z"
+       id="path1486"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:13.3455" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="vorlagen" />
 </svg>
