@@ -44,6 +44,10 @@
     "alias": "Windows 10 Build ${version}"
   },
   {
+    "pattern": "^(?<language>\\S{2,5})_windows_11_business_editions_version_(?<version>\\w{4})(_updated_\\S*)?_(?<architecture>\\w{3})_dvd_\\S*\\.iso$",
+    "alias": "Windows 11 Build ${version}"
+  },
+  {
     "pattern": "^(?<language>\\S{2,5})_windows_server_version_(?<version>\\w{4})(_updated_\\S*)?_(?<architecture>\\w{3})_dvd_\\S*\\.iso$",
     "alias": "Windows Server ${version}"
   }
